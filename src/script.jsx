@@ -25,7 +25,7 @@ var MessageView = React.createClass({
 
 var Clock = React.createClass({
   render: function tick() {
-  const element = (
+    return(
     <div>
       <h3>Current (local) time: {new Date().toLocaleTimeString()}.</h3>
     </div>
