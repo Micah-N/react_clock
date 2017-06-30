@@ -30,7 +30,6 @@ var Clock = React.createClass({
       <h3>Current (local) time: {new Date().toLocaleTimeString()}.</h3>
     </div>
   );
-  {setInterval(tick, 1000)}
 }
 });
 
